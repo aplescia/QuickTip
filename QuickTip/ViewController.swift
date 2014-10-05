@@ -23,20 +23,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func buttonTap(AnyObject){
+    @IBAction func buttonTap(theButton : UIButton){
         
-        if (tipLabel.text! == "0"){
-            tipLabel.text = theButton.titleLabel!.text!;
-        }else{
-    
-        tipLabel.text = tipLabel.text! + theButton.titleLabel!.text!
+        if (tipLabel!.text! == "0"){
+            tipLabel!.text! = theButton.titleLabel!.text!;
         }
+       
+        else
+        {
+        self.tipLabel!.text! = self.tipLabel!.text! + theButton.titleLabel!.text!
+        }
+        
         
     }
     
-    
-
-    @IBOutlet var theButton : UIButton!
     
     @IBOutlet var tipLabel: UILabel!
     
