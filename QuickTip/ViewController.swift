@@ -8,9 +8,6 @@
 
 import UIKit
 
-
-
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -29,10 +26,26 @@ class ViewController: UIViewController {
             tipLabel!.text! = theButton.titleLabel!.text!;
         }
        
-        else
-        {
+        else if (theButton.titleLabel!.text == "Clear") {
+            tipLabel!.text! = "0"
+        }
+        else {
         self.tipLabel!.text! = self.tipLabel!.text! + theButton.titleLabel!.text!
         }
+    }
+    
+    @IBAction func tipCalculated(tipButton : UIButton){
+        var x = tipLabel.text!.toInt()
+        var floatVal = Float(x!) * slider.value
+        var tipInt = Int(floatVal)
+        tipLabel.text! = String(tipInt)
+        
+        
+    }
+    
+    @IBAction func getSlider(theSlider : UISlider){
+        let valToString = String(format:"%.2f", theSlider.value)
+        sliderValue.text! = valToString
         
         
     }
@@ -41,6 +54,8 @@ class ViewController: UIViewController {
     @IBOutlet var tipLabel: UILabel!
     
     @IBOutlet var slider: UISlider!
+    
+    @IBOutlet var sliderValue : UILabel!
 
 }
 
