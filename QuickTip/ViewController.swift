@@ -8,6 +8,9 @@
 
 import UIKit
 
+
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -20,12 +23,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonTap(AnyObject){
+        
+        if (tipLabel.text! == "0"){
+            tipLabel.text = theButton.titleLabel!.text!;
+        }else{
     
+        tipLabel.text = tipLabel.text! + theButton.titleLabel!.text!
+        }
+        
+    }
     
     
 
     @IBOutlet var theButton : UIButton!
     
+    @IBOutlet var tipLabel: UILabel!
+    
+    @IBOutlet var slider: UISlider!
 
 }
 

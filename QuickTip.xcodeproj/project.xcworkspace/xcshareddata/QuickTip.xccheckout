@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20F25AB0-7B4B-47F5-B79E-31B3D82AD4E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QuickTip</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8F71C1358FBAF55641E9C1E53A5D7612DD16FCFA</key>
+		<string>https://github.com/aplescia/QuickTip.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QuickTip.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8F71C1358FBAF55641E9C1E53A5D7612DD16FCFA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aplescia/QuickTip.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8F71C1358FBAF55641E9C1E53A5D7612DD16FCFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8F71C1358FBAF55641E9C1E53A5D7612DD16FCFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QuickTip</string>
+		</dict>
+	</array>
+</dict>
+</plist>
